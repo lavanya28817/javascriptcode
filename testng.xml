@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3" verbose="2">
+
+    <test  name="Test1">
+    
+    
+    
+  <!--   <groups>
+    <define name="colours">
+    <include name="l"></include>
+    <include name="r"></include>
+    <include name="m"></include>
+    </define>
+    <run>
+    <include name="colours"></include>
+    <exclude name="l"></exclude>
+    </run>
+    
+    </groups>  -->
+  
+   
+     <classes>
+     
+      <class name="Testngsample.Sampledependency">
+      <methods>
+          
+      </methods>
+      </class>
+      
+      
+    </classes>
+    
+  <!-- <parameter name="browser" value="GC"></parameter>
+
+    <classes>
+      <class name="Testng.Automationpractice"/>
+    </classes>
+    </test>
+     <test  name="Test2">
+    <parameter name="browser" value="IE"></parameter>
+   
+    <classes>
+      <class name="Testng.Automationpractice"/>
+    </classes>
+    </test>
+      <test name="Test3">
+    <parameter name="browser" value="FF"></parameter>
+  
+    <classes>
+      <class name="Testng.Automationpractice"/>
+    </classes> -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
